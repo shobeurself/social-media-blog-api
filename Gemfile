@@ -47,5 +47,7 @@ group :development, :test do
 end
 
 gem "dotenv-rails"
-
-
+gem "devise"
+gem "bcrypt", "~> 3.1.7"
+gem "jwt"
+gem "active_model_serializers"
