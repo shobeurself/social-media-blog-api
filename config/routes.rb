@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     post "/users/register", to: "users#register"
     post "/users/login", to: "users#login"
     get "/users/test", to: "users#test"
+    post "notifications/send_email", to: "notifications#send_email"
   end
 
   namespace :v1 do
