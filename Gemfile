@@ -43,7 +43,7 @@ group :development, :test do
   gem "brakeman", require: false
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
-  gem "rubocop-rails-omakase", require: false
+  gem "rubocop-rails-omakase", require: true
 end
 
 gem "dotenv-rails"
@@ -51,3 +51,5 @@ gem "devise"
 gem "bcrypt", "~> 3.1.7"
 gem "jwt"
 gem "active_model_serializers"
+gem "svelte-rails"
+gem "rack-cors", require: "rack/cors"

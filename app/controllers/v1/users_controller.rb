@@ -13,9 +13,9 @@ class V1::UsersController < ApplicationController
 
     def login
       email = params[:user][:email]
-      # password = params[:user][:password]
+      password = params[:user][:password]
       user = User.find_by(email: email)
-      is_valid = user
+      is_valid = user && user.valid_password?(password)
       unless is_valid
         render json: {
             status: "error",
