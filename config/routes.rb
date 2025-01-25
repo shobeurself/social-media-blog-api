@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   concern :base_api do
     post "/users/register", to: "users#register"

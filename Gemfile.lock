@@ -182,7 +182,7 @@ GEM
     orm_adapter (0.5.0)
     ostruct (0.6.1)
     parallel (1.26.3)
-    parser (3.3.6.0)
+    parser (3.3.7.0)
       ast (~> 2.4.1)
       racc
     pg (1.5.9)
@@ -254,7 +254,7 @@ GEM
       unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.37.0)
       parser (>= 3.3.1.0)
-    rubocop-rails (2.28.0)
+    rubocop-rails (2.29.0)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.52.0, < 2.0)
